@@ -1,0 +1,191 @@
+*{
+    /* border: 1px solid black; */
+    color: #1C1C1C;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} 
+header{
+    display: inline-block;
+    border-bottom: 1px solid #F2F2F2;
+    width:100%;
+}
+header img{
+    width: 6%;
+    height: auto;
+    float: left;
+    margin-right: 6%;
+}
+header nav ul{
+    margin-top: 0.6%;
+}
+header nav ul li{
+    border: 1px solid #4DA6FF;
+    padding: 0.5%;
+    margin-right: 3%;
+    list-style: none;
+    float: left;
+    width: 8%;
+    text-align: center;
+}
+header nav ul li a{
+    color: #4DA6FF ;
+    text-decoration: none;
+    font-size: medium;
+}
+main{
+    clear: both;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.navegadorSeleccionado{
+    background-color: #005B96;
+    padding: 0.5%;
+    margin-right: 3%;
+    list-style: none;
+    float: left;
+    width: 8%;
+    text-align: center;
+}
+.navegadorSeleccionado a{
+    color: #FFEBCD;
+    font-size: medium;
+}
+main h5{
+    font-size: medium;
+    font-family: arial;
+}
+
+main img{
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+}
+.banner{
+    width:100%;
+    margin-left: 0%;
+}
+main h1{
+    text-align: center;
+}
+main p{
+    text-align: justify;
+}
+section{
+    border: 1px solid #F2F2F2;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+}
+section div{
+    border: 1px solid #F2F2F2;
+    float: left;
+    width: 30%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    padding: 1%;
+}
+section h2{
+    text-align: center;
+}
+section div h3{
+    text-align: center;
+}
+section div p{
+    text-align: justify;
+}
+.botonAncho{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 2%;
+    background-color: #005B96;
+    border: 1px solid #4DA6FF;
+}
+.botonAncho a{
+    text-decoration: none;
+    color: #FFEBCD;
+    font-size: medium;
+}
+footer{
+    display: inline-block;
+    border-top: 1px solid #F2F2F2;
+    margin-top: 2%;
+    padding-left: 25%;
+    padding-right:20%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: #4DA6FF;
+}
+.icono{
+    width: 8%;
+    float: left;
+    padding-top: 2%;
+    padding-right: 1.5%;
+}
+.icono img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+footer div{
+    float: left;
+    width: 16%;
+    padding: 1%;
+    padding-left:1.5%;
+    padding-right: 1.5%;
+    border-right: 1px solid #F2F2F2;
+}
+footer div h1{
+    font-size: larger;
+    text-align: center;
+}
+footer div p{
+    text-align: center;
+}
+
+.destino{
+    border: 1px solid #F2F2F2;
+    width: 40%;
+    height: 70%;
+    margin-right:1%;
+    float:left;
+    padding:0%;
+    background-color: #4DA6FF;
+}
+.destino img{
+    width: 20%;
+    height: auto;
+    float:left;
+}
+.destino div{
+    float: left;
+    width:20%;
+}
+.pregunta{
+    border-bottom: 1px solid #F2F2F2;
+}
+.pregunta h2{
+    text-align: center;
+}
+.pregunta p{
+    text-align: justify;
+}
+form input{
+    width:45%;
+    margin-right:2%;
+    margin-bottom: 1%;
+}
+form textarea{
+    width: 93%;
+    margin-bottom: 1%;
+}
+.mapa{
+    border: 1px solid #F2F2F2;
+    display: inline-block;
+}
+.mapa img{
+    float: left;
+    width:10%;
+}
+.mapa div{
+    float: left;
+    width:50%;
+}

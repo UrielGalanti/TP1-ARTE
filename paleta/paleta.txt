@@ -1,0 +1,15 @@
+Azul cielo (#4DA6FF):
+ fondo de secciones, menús, texto sobre fondos claros, títulos secundarios
+
+Azul profundo (#005B96)
+ botones destacados
+ 
+Arena clara (#FFEBCD)
+ fondo general
+
+Gris claro (#F2F2F2)
+  líneas divisorias, sombreado de tarjetas o bloques.
+
+
+Negro suave (#1C1C1C)
+  texto, íconos pequeños, logos secundarios.
