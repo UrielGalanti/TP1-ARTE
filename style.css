@@ -2,14 +2,14 @@
     /* border: 1px solid black;  */
     color: #1C1C1C;
     font-family: Arial;
-} 
+}
 header{
     display: inline-block;
-    border-top: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
     width:100%;
 }
 header img{
-    width: 6%;
+    width: 4.5%;
     height: auto;
     float: left;
     margin-right: 6%;
@@ -44,6 +44,7 @@ main{
     float: left;
     width: 8%;
     text-align: center;
+    border: 0px;
 }
 .navegadorSeleccionado a{
     color: #FFEBCD;
@@ -69,7 +70,7 @@ main h1{
 main p{
     text-align: justify;
 }
-.servicios{ 
+.servicios{
     border-top: 1px solid #f2f2f2;
     border-bottom: 1px solid #f2f2f2;
     padding: 1%;
@@ -83,18 +84,22 @@ main p{
     width: 30%;
     margin-left: 0.5%;
     margin-right: 0.5%;
-    padding: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
 }
 .servicios h2{
     text-align: center;
 }
 .servicios div h3{
+    padding-bottom: 1%;
     text-align: center;
+    border-bottom: 1px solid #f2f2f2;
 }
 .servicios div p{
     text-align: justify;
 }
-.botonAncho button{
+a button{
     width: 50%;
     margin-left: 25%;
     margin-top: 3%;
@@ -103,10 +108,11 @@ main p{
     background-color: #005B96;
     border: 1px solid #4DA6FF;
     color: #FFEBCD;
+    border-radius: 20px;
 }
 
 
-.botonAncho{
+a{
     text-decoration: none;
     font-size: medium;
 }
@@ -119,7 +125,7 @@ footer{
     padding-top: 2%;
     padding-bottom: 2%;
     background-color: #005B96;
-    
+
 }
 .icono{
     width: 8%;
@@ -152,7 +158,7 @@ footer div p{
 .destino{
     border: 1px solid #a5a5a5;
     width: 46%;
-    height: 70%;
+    height: auto;
     margin-right:0.5%;
     margin-left: 0.5%;
     margin-bottom: 1%;
@@ -184,38 +190,43 @@ footer div p{
     border-bottom: 1px solid #a5a5a5;
 }
 .pregunta h2{
-    text-align: center;
+    text-align: left;
 }
 .pregunta p{
     text-align: justify;
 }
 form input{
     width:45%;
+    padding: 1%;
     margin-right:2%;
     margin-bottom: 1%;
     border:1px solid #005B96;
 }
 form textarea{
-    width: 93%;
+    width: 100%;
     margin-bottom: 1%;
     border:1px solid #005B96;
 }
 form input[type="checkbox"] {
-    text-align: left;
     display: inline-block;
-    clear: both;
+    width: auto;
+    margin-right: 1%; 
+}
+.checkboxes {
+    display: block;
+    text-align: left;
 }
 .mapa{
     border: 1px solid #a5a5a5;
     display: inline-block;
     width: 100%;
-    padding: 1%;
+    background-color: #005B96;
 }
 .mapa img{
     float: left;
     margin-left: 0%;
     width:35%;
-    margin-right: 1%;
+    margin: 1%;
     height: auto;
 }
 .mapa div{
@@ -223,8 +234,11 @@ form input[type="checkbox"] {
     width:60%;
     border: 0px;
 }
-.mapa p{
+.mapa div p{
     text-align: justify;
+}
+.mapa div p, .mapa div h1{
+    color:#f2f2f2;
 }
 section h2{
     text-align: center;
@@ -245,4 +259,18 @@ section div h1{
 section div p{
     font-size: large;
     text-align: center;
+}
+section img{
+    width: 100%;
+    height: auto;
+    margin-left: 0%;
+}
+
+.destino, .servicios, .mapa, section div{
+    border-radius: 5px;
+}
+.botonDestino button{
+    width: 80%;
+    padding: 2%;
+    margin-left: 10%;
 }
